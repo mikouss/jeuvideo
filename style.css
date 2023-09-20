@@ -1,0 +1,57 @@
+body{background: #000;}
+
+h2,p{color: #fff;}
+
+
+.score{
+    
+    background-color: #494949;
+    color:#fffdf6;
+    padding:1rem 2rem;
+    font-size: 1.5em;
+    height:50px;width: 1000px; margin: 0 auto; text-align: center;
+    
+    
+}
+
+
+
+.instructions{width: 1000px;margin: 0 auto; text-align: center;}
+
+
+button.waves-effect{display:block;margin: 1rem auto;background-color: darkblue;}
+
+
+.plateau{background-image:url(images/20190418004804-6eeb8872.jpg);border: 2px solid #FF0075;width: 1000px; margin: 0 auto;background-size: cover;}
+
+
+.mur{background-color: #FFCE45;width: 100%;height: 50px;border-radius: 50px 50px 0 0 ;position: absolute;bottom: 0px;left: 0px;z-index: 10;opacity: 0.5;}
+
+.cachette{display: inline-block;margin:16px; width:30%; height:250px; position:relative; overflow:hidden;}
+
+
+.zombie,.lola{
+    
+    background-size: cover;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    height: 250px;
+    top: 250px;
+    width: 100%;
+    cursor: crosshair;
+    transition: all 0.5s;
+    
+}
+
+
+
+.zombie{background-image: url(images/thanos.png);}
+
+.lola{background-image: url(images/baby%20groot.png);}
+
+
+
+.cachette.up .zombie{ top :0;}
+
+.cachette.up2 .lola{ top :0;}
